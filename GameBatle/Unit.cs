@@ -23,9 +23,12 @@ namespace GameBatle
 
 
         /// <summary>
-        /// 
+        /// Предметы в рюкзаке. Если Unit не живой обькт, то расценивать как содержимое обьекта
         /// </summary>
-        private Loot[] _loot;
+        private ILoot[] _loot;
 
+        public string Name { get => _name; set => _name = value; }
+        public int Health { get => _health; set => _health = value; }
+        internal ILoot[] Loot { get => _loot; set => _loot = value; }
     }
 }

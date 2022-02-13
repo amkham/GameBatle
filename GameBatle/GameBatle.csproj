@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Armor.cs" />
+    <Compile Include="Human.cs" />
     <Compile Include="IAction.cs" />
-    <Compile Include="Loot.cs" />
+    <Compile Include="ILoot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sword.cs" />
     <Compile Include="Unit.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>
